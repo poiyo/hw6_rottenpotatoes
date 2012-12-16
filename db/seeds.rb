@@ -22,8 +22,8 @@ movies.each do |movie|
   Movie.create!(movie)
 end
 =end
-movie_count=250
-review_count=20
+movie_count=500
+review_count=40
 movie_ids = []
 movie_count.times do |i|
   time=Time.now

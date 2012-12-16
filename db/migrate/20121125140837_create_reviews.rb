@@ -6,7 +6,6 @@ class CreateReviews < ActiveRecord::Migration
       t.integer :score
       t.text :comment
       t.timestamps
-
     end
   end
 end
